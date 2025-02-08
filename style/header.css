@@ -1,10 +1,9 @@
 .header {
-  padding: 25px 0 0 0;
+    padding: 25px 0 0 0;
 }
 
 .nav {
     width: 100%;
-
 }
 
 .nav::after {
@@ -38,17 +37,18 @@
     bottom: -5px;
     height: 1px;
     background-color: var(--font-color-grey);
-    transition: right .22ss;
+    transition: right .22s;
 }
 
 .nav-link:hover {
-    color: var(--font-color-black);
+    color: var(--font-main-black);
 }
+
 .nav-link:hover::after {
     right: 0;
 }
 
-@media (max-wigth: 480px) {
+@media (max-width: 480px) {
     .header {
         display: none;
     }
